@@ -47,7 +47,7 @@ Obs: "master" é o nome da branch onde seu repositório se encontra. Ele é a br
 
 Alterar versões localmente:
 
-"git reflog" - Mostra o histórico de vesões, o id delas é a sequência de caracteres após o nome "commit".
+"git reflog" - Mostra o histórico de versões, o id delas é a sequência de caracteres após o nome "commit".
 
 "git reset --hard idDaV3rsa0QueD3sejaR3staurar" - Restaura a versão de id: idDaV3rsa0QueD3sejaR3staurar.
 
