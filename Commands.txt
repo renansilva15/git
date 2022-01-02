@@ -1,0 +1,67 @@
+Você precisa ter uma conta no GitHub(ou outra plataforma de hospedagem que suporte Git).
+
+Os comandos estão dentro de aspas("comando"), sequido de suas descrições. As aspas não fazem parte do comando.
+
+Todos os comandos devem ser executados com o "terminal" aberto na pasta em que o repositório se encontra/encontrará.
+
+Você deve configurar o seu "usuário Git" com o e-mail e usuário da plataforma de hospedagem(Bitbucket,
+GitHub, ...). Para fazer isso utilize os comandos abaixo(estes comandos podem ser executados de
+qualquer diretório):
+
+"git config --global user.email "seuemail@rmail.com"" - As aspas entre o e-mail fazem parte do comando.
+
+"git config --global user.name "renansilva15"" - As aspas entre o nome do usuário fazem parte do comando.
+
+
+
+Alguns comandos do Git:
+
+"git init" - Inicializa um repositório.
+
+"git status" - Mostra o status do repositório(se os arquivos estão atualizados, quais foram modificados...).
+
+"git add nome do arquivo.tipodoarquivo" - Adiciona arquivo ao controle de versão.
+
+"git add ." - Adiciona todos os arquivos ao controle de versão.
+
+"git commit -m "commit inicial"" - As aspas entre a mensagem fazem parte do comando. Cria uma versão com os arquivos
+                                   adicionados com o nome commit inicial.
+
+
+Obs: Sempre que um arquivo for modificado é necessário adiciona-lo novamente.
+
+
+Para enviar uma versão para a nuvem é necessário criar um repositório na plataforma de hospedagem. Na pasta onde o
+diretório se encontra utilize os sequintes comandos:
+
+"git remote add origin https://github.com/renansilva15/Git.git" - Coloque o link do repositório que criou. Este
+                                                                  comando só precisa ser executado uma vez na pasta
+
+git push --set-upstream origin master - Este comando envia a versão(commit) para a nuvem. Depois de executar uma vez
+                                        basta utilizar "git push".
+
+
+Obs: "master" é o nome da branch onde seu repositório se encontra. Ele é a branch padrão do GitHub, caso seu
+     repositório esteja em outra branch basta colocar o nome do mesmo no lugar de "master".
+
+
+Alterar versões localmente:
+
+"git reflog" - Mostra o histórico de vesões, o id delas é a sequência de caracteres após o nome "commit".
+
+"git reset --hard idDaV3rsa0QueD3sejaR3staurar" - Restaura a versão de id: idDaV3rsa0QueD3sejaR3staurar.
+
+
+Clonando um repositório. Navegue até a pasta que deseja que o repositório fique e utilize o comando:
+
+"git clone https://github.com/renansilva15/Git.git" - Clona o repositório https://github.com/renansilva15/Git.git
+                                                      na pasta atual.
+
+
+Ignorando arquivos. Caso a pasta em questão possua arquivos que não deseja enviar para a nuvem e 
+quer que o "git status" ignore eles, utilize o comando(na pasta do repositório):
+
+"touch .gitignore" - Cria um arquivo vazio(o nome do arquivo tem que ser .gitignore).
+
+Abra o arquivo e adicione o nome da(o) pasta/arquivo que deseja ignorar(um nome por linha). Você pode visualizar
+o nome da(s) pasta(s) e/ou arquivo(s) utilizando o comando "git status".

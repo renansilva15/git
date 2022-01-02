@@ -1,0 +1,1 @@
+print("Arquivo de test para os comandos.")
