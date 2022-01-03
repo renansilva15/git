@@ -2,11 +2,12 @@ Você precisa ter uma conta no GitHub(ou outra plataforma de hospedagem que supo
 
 Os comandos estão dentro de aspas("comando"), sequido de suas descrições. As aspas não fazem parte do comando.
 
-Todos os comandos devem ser executados com o "terminal" aberto na pasta em que o repositório se encontra/encontrará.
+Todos os comandos devem ser executados com o "terminal" aberto na pasta(diretório) em que o 
+repositório se encontra/encontrará.
 
 Você deve configurar o seu "usuário Git" com o e-mail e usuário da plataforma de hospedagem(Bitbucket,
 GitHub, ...). Para fazer isso utilize os comandos abaixo(estes comandos podem ser executados de
-qualquer diretório):
+qualquer pasta):
 
 "git config --global user.email "seuemail@rmail.com"" - As aspas entre o e-mail fazem parte do comando.
 
@@ -32,7 +33,7 @@ Obs: Sempre que um arquivo for modificado é necessário adiciona-lo novamente.
 
 
 Para enviar uma versão para a nuvem é necessário criar um repositório na plataforma de hospedagem. Na pasta onde o
-diretório se encontra utilize os sequintes comandos:
+repositório se encontra utilize os sequintes comandos:
 
 "git remote add origin https://github.com/renansilva15/Git.git" - Coloque o link do repositório que criou. Este
                                                                   comando só precisa ser executado uma vez na pasta
