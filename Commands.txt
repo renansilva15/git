@@ -1,6 +1,6 @@
 Você precisa ter uma conta no GitHub(ou outra plataforma de hospedagem que suporte Git).
 
-Os comandos estão dentro de aspas("comando"), sequido de suas descrições. As aspas não fazem parte do comando.
+Os comandos estão dentro de aspas("comando"), seguido de suas descrições. As aspas não fazem parte do comando.
 
 Todos os comandos devem ser executados com o "terminal" aberto na pasta(diretório) em que o 
 repositório se encontra/encontrará.
