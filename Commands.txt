@@ -37,7 +37,7 @@ diretório se encontra utilize os sequintes comandos:
 "git remote add origin https://github.com/renansilva15/Git.git" - Coloque o link do repositório que criou. Este
                                                                   comando só precisa ser executado uma vez na pasta
 
-git push --set-upstream origin master - Este comando envia a versão(commit) para a nuvem. Depois de executar uma vez
+"git push --set-upstream origin master" - Este comando envia a versão(commit) para a nuvem. Depois de executar uma vez
                                         basta utilizar "git push".
 
 
